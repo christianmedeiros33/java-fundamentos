@@ -23,6 +23,7 @@ public class While_Do_While_For {
         }
 
         System.out.println("----");
+
         // exercise number is pair
         for (int i = 0; i < 1000; i++) {
             if (i % 2 == 0){
