@@ -15,9 +15,7 @@ public class CalculatorTest {
         int valueOne = 1;
         int valueTwo = 2;
         calculator.changesTwoNumbers(valueOne,valueTwo);
-//        System.out.println();
-//        System.out.println(valueOne);
-//        System.out.println(valueTwo);
+
     }
 
 }
