@@ -1,22 +1,26 @@
-package com.javaFundamentos.javacore.methodsOverloads.model;
+package com.javaFundamentos.javacore.constructors.model;
 
 public class Anime {
     private String name;
     private String type;
     private int episodes;
     private String gender;
+    private String studio;
 
-
-
-    public void init(String name, String type, int episodes) {
+    public Anime(String name, String type, int episodes, String gender) {
+        this();
         this.name = name;
         this.type = type;
         this.episodes = episodes;
+        this.gender = gender;
     }
 
-    public void init(String name, String type, int episodes, String gender) {
-        this.init(name, type, episodes);
-        this.gender = gender;
+    public Anime(String name, String type, int episodes, String gender, String studio) {
+        this(name, type, episodes, gender);
+        this.studio = studio;
+    }
+
+    public Anime() {
     }
 
     public void printOut() {
@@ -24,6 +28,7 @@ public class Anime {
         System.out.println(this.type);
         System.out.println(this.episodes);
         System.out.println(this.gender);
+        System.out.println(this.studio);
     }
 
     public void setName(String name) {
