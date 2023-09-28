@@ -1,4 +1,4 @@
-package com.javaFundamentos.logica;
+package com.javaFundamentos.arrays;
 
 public class While_Do_While_For {
     public static void main(String[] args) {

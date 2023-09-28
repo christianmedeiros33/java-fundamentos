@@ -4,10 +4,10 @@ public class EmployeeObjeto {
 
     public static void main(String[] args) {
         Employee employee = new Employee();
-        employee.name = "christian";
-        employee.age = 22;
-        employee.salarys = new double[]{1200, 900, 200};
-
+        employee.setName("christian");
+        employee.setAge(22);
+        employee.setSalarys(new double[]{1200, 900, 200});
         employee.printOut();
+        System.out.println("media: " + employee.getAverageSalary());
     }
 }

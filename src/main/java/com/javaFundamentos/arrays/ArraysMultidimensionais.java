@@ -1,4 +1,4 @@
-package com.javaFundamentos.logica;
+package com.javaFundamentos.arrays;
 
 public class ArraysMultidimensionais {
     public static void main(String[] args) {
