@@ -15,7 +15,6 @@ public class Anime {
     public void init(String name, String type, int episodes, String gender) {
         this.init(name, type, episodes);
         this.gender = gender;
-
     }
 
     public void printOut() {
