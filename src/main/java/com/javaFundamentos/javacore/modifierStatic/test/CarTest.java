@@ -4,12 +4,13 @@ import com.javaFundamentos.javacore.modifierStatic.model.Car;
 
 public class CarTest {
     public static void main(String[] args) {
+        Car.getLimitSpeed();
+
         Car carOne = new Car("BMW", 280);
         Car carTwo = new Car("Mercedes", 275);
         Car carThree = new Car("Audi", 290);
 
         // fica claro que todas as velocidades serao alteradas por que estou modificando a class Car
-        Car.limitSpeed = 180;
 
         carOne.printOut();
         carTwo.printOut();
