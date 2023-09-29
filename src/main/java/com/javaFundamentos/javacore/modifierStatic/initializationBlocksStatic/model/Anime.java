@@ -30,7 +30,7 @@ public class Anime {
 
         for (int episodes : Anime.episodes
         ) {
-            System.out.print(episodes + " ");
+            System.out.print(episodes + " " );
         }
         System.out.println();
     }
