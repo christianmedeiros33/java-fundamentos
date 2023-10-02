@@ -10,7 +10,7 @@ public class Anime {
     // 3- Bloco de inicialização e executado
     // 4- Construtor e executado
 
-    static {
+    static {    
         System.out.println("dentro do inicialização");
         episodes = new int[10];
         for (int i = 0; i < episodes.length; i++) {

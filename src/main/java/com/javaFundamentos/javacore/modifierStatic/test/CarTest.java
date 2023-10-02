@@ -4,7 +4,7 @@ import com.javaFundamentos.javacore.modifierStatic.model.Car;
 
 public class CarTest {
     public static void main(String[] args) {
-        Car.getLimitSpeed();
+
 
         Car carOne = new Car("BMW", 280);
         Car carTwo = new Car("Mercedes", 275);
