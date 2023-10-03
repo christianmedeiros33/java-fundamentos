@@ -4,8 +4,11 @@ public class Person {
     protected String name;
     protected String cpf;
     protected Address address;
+static {
 
+}
     public Person(String name) {
+        System.out.println("dentro do Person");
         this.name = name;
     }
 
